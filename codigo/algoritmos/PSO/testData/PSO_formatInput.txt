@@ -1,0 +1,4 @@
+n_setores
+quantidade de pedidos em cada setor
+numero de técnicos
+tempos de deslocamentos do i-nésimo pedido para os devidos tecnicos

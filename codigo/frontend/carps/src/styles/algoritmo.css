@@ -1,0 +1,33 @@
+/**
+ * Definição de animação para desaparecer (fadeOut).
+ */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+/**
+ * Definição de animação para aparecer (fadeIn).
+ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.elementoFadeOut {
+    animation: fadeOut 2s forwards;
+  }
+
+.elementoFadeIn {
+  animation: fadeIn 2s forwards;
+}

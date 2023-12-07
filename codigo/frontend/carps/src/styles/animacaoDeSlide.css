@@ -1,0 +1,51 @@
+@keyframes slideOutToLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes slideOutToRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-200%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.saiParaEsquerda {
+  animation: slideOutToLeft 1.0s forwards;
+}
+
+.saiParaDireita {
+  animation: slideOutToRight 1.0s forwards;
+}
+
+.entraDaDireita {
+  animation: slideInFromRight 1.0s forwards;
+}
+
+.entraDaEsquerda {
+  animation: slideInFromLeft 1.0s forwards;
+}

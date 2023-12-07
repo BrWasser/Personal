@@ -1,0 +1,92 @@
+/**
+ * Importa a fonte Montserrat do Google Fonts.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/**
+  * Aplica a fonte Montserrat para todo o HTML.
+  */
+html {
+    font-family: "Montserrat";
+}
+
+/**
+  * Estilos para a seção de Contato.
+  */
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+    text-align: center;
+}
+
+/**
+  * Estilos para cabeçalhos (h1) e parágrafos (p.label).
+  */
+h1,
+p.label {
+    padding: 0.5em 0;
+}
+
+/**
+  * Estilos para o campo de entrada de texto no formulário.
+  */
+.input-contato {
+    width: 40em;
+    height: 10em;
+    padding: 0.5em 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0.1px solid #3F3F3F;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-wrap: wrap;
+    white-space: wrap;
+}
+
+/**
+  * Estilos quando o campo de entrada de texto está em foco.
+  */
+.input-contato:focus {
+    outline: none;
+    border: 1.5px solid #3F3F3F;
+}
+
+/**
+  * Estilos para o espaço reservado (placeholder) do campo de entrada de texto.
+  */
+.input-contato::placeholder {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: start;
+    white-space: wrap;
+}
+
+/**
+  * Estilos para o botão no formulário.
+  */
+button {
+    margin: 0.5em;
+    background: none;
+    border: 1.9px solid #000;
+    border-radius: 35px;
+    box-shadow: 0px 25px 40px -14px rgba(0, 0, 0, 0.10);
+    padding: 8px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #000;
+}
+
+/**
+  * Estilos para o link dentro do botão no formulário.
+  */
+button a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
